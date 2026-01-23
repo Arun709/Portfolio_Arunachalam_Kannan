@@ -593,7 +593,7 @@ elif selection == "🚀 Projects":
     ]
 
     for project in projects:
-        link = PROJECT_LINKS.get(project["link"], "#")
+        link = project["link"]
         tech_pills = "".join([f'<div class="skill-pill">{tech}</div>' for tech in project["tech"]])
         
         st.markdown(f"""
@@ -670,7 +670,7 @@ elif selection == "💡 Skills":
         # (continuation of the "Specialized Tools" card that was cut off)
         st.markdown("""
             <div class="modern-card">
-                <div style="display: flex; align-items_call-items: center; margin-bottom: 1rem;">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
                     <div class="icon-badge" style="font-size: 2rem;">⚡</div>
                     <h3 style="margin: 0; color: #f0e7ff; font-family: 'Space Grotesk', sans-serif;">Specialized Tools</h3>
                 </div>
