@@ -25,7 +25,7 @@
 ## 🌌 Live Portfolio
 
 <p align="center">
-  <a href="[https://your-portfolio-name.streamlit.app](https://arunachalamkannan.streamlit.app]">
+  <a href="https://your-portfolio-name.streamlit.app](https://arunachalamkannan.streamlit.app">
     <img src="https://img.shields.io/badge/Visit%20Live%20Portfolio-9f7aea?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=1a0b3f" alt="Live Portfolio" width="320">
   </a>
 </p>
